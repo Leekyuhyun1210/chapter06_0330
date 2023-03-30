@@ -12,14 +12,14 @@
 		
 		if(sid == null) { //참이면 비로그인상태, 거짓이면 로그인 상태
 	%>
-		<h2><a href="login.jsp">로그인 페이지로 이동</a></h2>
+		<h2><a href="login.jsp">[비로그인 상태]로그인 페이지로 이동</a></h2>
 	<%
 		} else {
 	%>
-		<h2><a href="logout.jsp">로그아웃</a></h2>
+		<h2><%= sid %>님 로그인 성공하셨습니다.</h2>
+		<h2><a href="logout.jsp">[로그인 중인 상태]로그아웃</a></h2>
 	<%
 		}
 	%>
-	
 </body>
 </html>

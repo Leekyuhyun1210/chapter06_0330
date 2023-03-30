@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인 성공</title>
 </head>
 <body>
 	<%
@@ -12,6 +12,7 @@
 		String spw = request.getParameter("memberPw");
 		if(sid.equals("white") && spw.equals("1234")) {
 			session.setAttribute("sessionId", sid);
+			session.setAttribute("sessionId", spw);
 		}
 	%>
 	<a href="loginCheck">로그인 여부 체크</a>
