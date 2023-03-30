@@ -20,7 +20,6 @@
 			out.println("start_time : " + start_time);
 			out.println("end_time : " + end_time);
 			out.println((end_time - start_time)/60000 + "분"); //로그인 접속 시간
-			
 	%>
 		<h2><%= sid %>님 로그인 성공하셨습니다.</h2>
 		<h2><a href="logout.jsp">[로그인 중인 상태]로그아웃</a></h2>
