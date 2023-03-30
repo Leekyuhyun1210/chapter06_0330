@@ -10,7 +10,7 @@
 	<%
 		String sid = (String)session.getAttribute("sessionId");
 		
-		if(sid == null) { //참이면 비로그인상태, 거짓이면 로그인 상태
+		if(sid == null) { //참이면 비로그인 상태, 거짓이면 로그인 상태
 	%>
 		<h2><a href="login.jsp">[비로그인 상태]로그인 페이지로 이동</a></h2>
 	<%

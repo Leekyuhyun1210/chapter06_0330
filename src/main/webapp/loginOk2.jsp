@@ -12,9 +12,9 @@
 		String spw = request.getParameter("memberPw");
 		if(sid.equals("white") && spw.equals("1234")) {
 			session.setAttribute("sessionId", sid);
-			session.setAttribute("sessionId", spw);
+			session.setAttribute("sessionPw", spw);
 		}
 	%>
-	<a href="loginCheck">로그인 여부 체크</a>
+	<a href="loginCheck.jsp">로그인 여부 체크로 이동</a>
 </body>
 </html>
