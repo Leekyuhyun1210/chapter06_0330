@@ -3,6 +3,7 @@
 	<name>chapter06_0330</name>
 	<comment></comment>
 	<projects>
+		<project>tt</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
